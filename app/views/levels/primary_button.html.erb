@@ -1,7 +1,57 @@
-<span>Click me!</span>
+<span class="base-button fancy-button">Click me!</span>
+<span class="base-button scary-button">Be careful!</span>
 
 <style>
+/* Write your CSS here to make the span look like a button. */
 
-  /* Write your CSS here to make the span look like a button. */
+.base-button {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    box-shadow: 2px -1px 66px 39px rgba(0,0,0,0.33) inset;
+    -webkit-box-shadow: 2px -1px 66px 39px rgba(0,0,0,0.33) inset;
+    -moz-box-shadow: 2px -1px 66px 39px rgba(0,0,0,0.33) inset;
+}
 
+.fancy-button {
+    background-color: blue;
+}
+
+.fancy-button:hover {
+    background-color: darkblue;
+}
+
+.fancy-button:active {
+    background-color: red;
+}
+
+.scary-button {
+    background-color: red;
+}
+
+.scary-button:hover {
+    background-color: darkred;
+}
+
+.scary-button:active {
+    background-color: blue;
+}
 </style>
+
+
+
+<a class="btn btn-primary">Primary</a>
+<a class="btn btn-secondary">Secondary</a>
+<a class="btn btn-success">Success</a>
+<a class="btn btn-danger">Danger</a>
+<a class="btn btn-warning">Warning</a>
+<a class="btn btn-info">Info</a>
+<a class="btn btn-outline-primary">Primary (unobtrusive)</a>
+<a class="btn btn-outline-secondary">Secondary (unobtrusive)</a>
+<a class="btn btn-outline-success">Success (unobtrusive)</a>
+<a class="btn btn-outline-danger">Danger (unobtrusive)</a>
+<a class="btn btn-outline-warning">Warning (unobtrusive)</a>
+<a class="btn btn-outline-info">Info (unobtrusive)</a>
